@@ -6,7 +6,7 @@ Switcher automático por audio para podcast y streaming, **gratuito y open sourc
 
 Escucha los micrófonos de la consola, detecta quién habla y corta la cámara correspondiente. El Program sale como fuente NDI (con audio embebido), en pantalla completa y con tally NDI. Opcionalmente controla vMix y OBS.
 
-**Estado:** diseño. Todavía no hay código.
+**Estado:** v0.1 en desarrollo. Ya funciona el [medidor de audio](tools/README.md), que es la etapa 1.
 
 ## Cómo funciona
 
@@ -36,6 +36,7 @@ Consola/interfaz USB ──────────┘                          
 | `ui/` | Interfaz (PySide6) |
 | `profiles/` | Esquema y ejemplos de perfiles |
 | `installer/` | Instalador (Inno Setup) |
+| `tools/` | Herramientas de diagnóstico, por ejemplo el [medidor de audio](tools/README.md) |
 | `docs/` | Manual ES/EN |
 
 Ver [ROADMAP.md](ROADMAP.md) y [CONTRIBUTING.md](CONTRIBUTING.md).

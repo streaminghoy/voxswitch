@@ -23,3 +23,6 @@ recordings/
 Thumbs.db
 .vscode/
 .idea/
+
+# Entorno local
+.venv/
